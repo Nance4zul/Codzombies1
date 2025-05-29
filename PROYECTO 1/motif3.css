@@ -1,0 +1,47 @@
+body {
+  font-family: arial, serif;
+  background-image: linear-gradient(
+    to right,
+    black,
+    orange,
+    black,
+    orange,
+    black,
+    orange,
+    black
+  );
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(137, 29, 29);
+  text-align: center;
+  margin: 50px;
+  border-radius: 10px;
+  align-items: center;
+}
+.tema {
+  display: grid;
+  grid-template-columns: center;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 20%;
+  height: auto;
+  align-items: center;
+}
+.descripcion {
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+  text-align: center;
+}
+
+.videoex {
+  margin: 0;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

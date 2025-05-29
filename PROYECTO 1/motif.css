@@ -1,0 +1,77 @@
+h1 { 
+    text-align: start;
+    justify-content: start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellowgreen;
+    align-items: start;
+}
+body {
+    font-family: arial, serif;
+      background-image: linear-gradient(to right, violet, red, blue, black, blue, purple, red);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 3500%;
+      margin:50px;
+}
+.contenedor-principal {
+      display: grid;
+      grid-template-columns: stretch;
+      gap: 20px;
+    }
+      .titulo {
+      background-color: #85aad464;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      height: 100px;
+      display: center;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .contenedor {
+      background-color: #85aad464;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .contenedor img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .contenedor button {
+      background-color: #af894c;
+      color: rgb(13, 21, 26);
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointerauto;
+      transition: background-color 0.3s ease;
+      place-items: center;
+    }
+
+    .contenedor button:hover {
+      background-color: #83a045;
+    }
+
+.inferior {
+width: 80vw;
+border: 2px solid #333;
+padding: 15px;
+background-color: #f2f2f2;
+align-content: center;
+}
+

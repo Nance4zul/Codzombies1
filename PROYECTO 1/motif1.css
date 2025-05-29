@@ -1,0 +1,35 @@
+body {
+  font-family: arial, serif;
+  background-image: linear-gradient(to right, black, orange, black);
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(137, 29, 29);
+  text-align: center;
+  margin: 50px;
+}
+.contenedor-principal {
+  display: grid;
+  grid-template-columns: center;
+  gap: 20px;
+}
+.contenido {
+  align-items: center;
+  flex-direction: row;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.descripcion {
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+}
+P {
+  text-align: center;
+}
+img {
+  width: 20%;
+  height: auto;
+  align-items: center;
+}
